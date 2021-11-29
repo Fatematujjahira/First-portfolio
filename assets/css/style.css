@@ -271,7 +271,12 @@ h6 {
     margin-bottom: 30px;
   }
 }
-
+.download {
+  background-color: #149ddd;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/

@@ -65,7 +65,7 @@ particlesJS(
         enable: true,
         distance: 150,
         color: "#ffffff",
-        opacity: 0.4,
+        opacity: 0.6,
         width: 1,
       },
       move: {
@@ -103,9 +103,9 @@ particlesJS(
           },
         },
         bubble: {
-          distance: 400,
+          distance: 300,
           size: 40,
-          duration: 2,
+          duration: 3,
           opacity: 8,
           speed: 3,
         },

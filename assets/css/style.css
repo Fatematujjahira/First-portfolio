@@ -209,12 +209,14 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
-  background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"),
-    linear-gradient(rgba(65, 62, 62, 0.482), rgba(104, 104, 104, 0.5));
+  background-image: url("https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
+    linear-gradient(rgba(7, 7, 77, 0.5), rgba(8, 8, 52, 0.5));
   height: 100vh;
-  width: 100%;
-  /* border: 1px solid red; */
+  position: relative;
+  /* width: 100%; */
+
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +233,7 @@ h6 {
   z-index: 1;
 }
 #hero .hero-container {
-  position: relative;
+  position: absolute;
   z-index: 2;
   min-width: 300px;
   margin-top: 80px;
@@ -239,7 +241,7 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 56px;
   color: #fff;
 }

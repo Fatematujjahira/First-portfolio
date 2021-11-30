@@ -210,7 +210,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background-image: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
+  background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"),
     linear-gradient(rgba(65, 62, 62, 0.482), rgba(104, 104, 104, 0.5));
   height: 100vh;
   width: 100%;
@@ -234,6 +234,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-top: 80px;
 }
 #hero h1 {
   margin: 0 0 10px 0;
@@ -252,8 +253,9 @@ h6 {
   color: #63ddff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 4px solid #43c4ff;
-  font-weight: 600;
+  /* border-bottom: 4px solid #43c4ff; */
+  /* font-weight: 600; */
+  font-size: 45px;
 }
 @media (min-width: 1024px) {
   #hero {

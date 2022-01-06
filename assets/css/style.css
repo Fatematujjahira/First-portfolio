@@ -282,7 +282,7 @@ h6 {
   padding: 7px;
 }
 .downloaded {
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(7, 99, 235, 0.537);
   color: white;
   border-radius: 5px;
   padding: 9px;
